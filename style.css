@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+}
+
+/*menu*/
+
+
+
+header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titre-header {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.titre-header:hover {
+    opacity: 50%;
+}
+
+/*banderole*/
+
+.banderol-affiche {
+display: flex;
+justify-content: space-around;
+
+}
+
+.affiche {
+    background-color: #030C40;
+    background-image: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 600px;
+    width: 80%;
+}
+
+.taille-affiche {
+    width: 300px;
+    height: 450px;
+}
+
+.taille-affiche:hover {
+
+    transform: scale(1.05);  
+    border: 2px solid #fff
+}
+
+/*parc*/
+
+.bloc-park {
+    display: flex;
+    justify-content: space-around;
+}
+.park {
+    background-color: rgba(219, 219, 219, 0.7);
+    height: 600px;
+    width: 80%;
+    
+}
+
+.texte-park {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+/*grande affiche*/
+
+.banderol-grande-affiche {
+    display: flex;
+    justify-content: space-around;
+    
+    }   
+
+.grande-affiche {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.star-wars {
+    width: 761px;
+    height: 780px;
+    z-index: 5;
+}
+
+
